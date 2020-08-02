@@ -20,9 +20,9 @@ class ZomatoAPI{
     }
     
 
-    private let apiKey = "3802ea4cdf4a38c01faf4a116cc08ee6"
+    private let apiKey = "YOUR API KEY HERE"
     private let baseURL = "https://developers.zomato.com/api/v2.1/"
-    private let headers = ["Accept":"application/json", "user-key":"3802ea4cdf4a38c01faf4a116cc08ee6"]
+    private let headers = ["Accept":"application/json", "user-key":"YOUR API KEY HERE"]
     
 
     
