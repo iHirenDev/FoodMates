@@ -14,3 +14,4 @@ A SwiftUI application for restaurant search based on user location and search fu
         .sink(receiveValue: locationSearch(city:))
 ```
 
+### Note: All image resources used from [FlatIcon](https://www.flaticon.com/) and [Unsplash](https://unsplash.com/)
