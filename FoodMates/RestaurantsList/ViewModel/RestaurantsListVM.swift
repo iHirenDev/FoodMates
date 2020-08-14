@@ -33,7 +33,7 @@ class RestaurantsListVM: ObservableObject {
             guard let self = self else { return }
                 
                 self.dataSource = (restaurants.restaurants?.map({$0.restaurant}))! as! [Restaurant]
-        })
+            })
     }
     
     

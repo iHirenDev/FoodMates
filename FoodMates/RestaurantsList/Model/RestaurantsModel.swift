@@ -33,6 +33,7 @@ struct Restaurant:Codable, Identifiable {
     let cuisines: String
     let timings: String
     let user_rating:UserRating
+    let location:RestaurantLocationInfo
 }
 
 
@@ -100,7 +101,7 @@ enum AggregateRating: Codable {
 }
 
 // MARK: - Location
-struct LocationInfo: Codable {
+struct RestaurantLocationInfo: Codable {
     let address, locality, city: String
     let cityID: Int
     let latitude, longitude, zipcode: String

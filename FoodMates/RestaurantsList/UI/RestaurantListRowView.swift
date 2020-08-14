@@ -12,7 +12,7 @@ struct RestaurantListRowView: View {
     
     var restaurant: Restaurant
     @State private var isAnimating = true
-
+    
     var body: some View {
         HStack{
             RestaurantListImageView(url: URL(string: restaurant.featured_image) ?? URL(string:  "https://image.flaticon.com/icons/png/128/1539/1539660.png")!, placeholder: ActivityIndicator(isAnimating:                                       self.$isAnimating,
@@ -37,20 +37,22 @@ struct RestaurantListRowView: View {
                                 .frame(width:55, height: 30), alignment: .center)
                 }
                 
-                HStack{
                 Text(restaurant.cuisines)
-                    Spacer()
-                Image(systemName: "map")
-                    .padding()
+                    
                 }
             }
         }
     }
-}
 
 
-struct RestaurantListRowView_Previews: PreviewProvider {
-    static var previews: some View {
-        RestaurantListRowView(restaurant: Restaurant(id: "123", name: "Burger Point", url: "", thumb: "", featured_image: "fast-food", cuisines: "Pizza, Burger", timings: "", user_rating: UserRating(aggregateRating: AggregateRating.string("3.5"), ratingText: "", ratingColor: "", votes: AggregateRating.integer(4))))
-    }
-}
+
+
+
+//struct RestaurantListRowView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        RestaurantListRowView(restaurant: Restaurant(id: "123", name: "Burger Point", url: "", thumb: "", featured_image: "fast-food", cuisines: "Pizza, Burger", timings: "", user_rating: UserRating(aggregateRating: AggregateRating.string("3.5"), ratingText: "", ratingColor: "", votes: AggregateRating.integer(4)),location: RestaurantLocationInfo(address: "Sydney", locality: "sydney", city: "Sydney", cityID: 260, latitude: "", longitude: "", zipcode: "", countryID: 22, localityVerbose: "")))
+//    }
+//}
+
+
+

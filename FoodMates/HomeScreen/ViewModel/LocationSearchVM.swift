@@ -42,7 +42,12 @@ class LocationSearchVM: ObservableObject {
           },
           receiveValue: { [weak self] locationInfo in
             guard let self = self else { return }
+            
+            if(locationInfo.locationSuggestions == nil){
+                self.dataSource = []
+            }else{
             self.dataSource = locationInfo.locationSuggestions!
+            }
         })
         .store(in: &disposables)
     }
