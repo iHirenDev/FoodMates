@@ -13,5 +13,6 @@ A SwiftUI application for restaurant search based on user location and search fu
         .debounce(for: .seconds(0.5), scheduler: schedular)
         .sink(receiveValue: locationSearch(city:))
 ```
+###### 5. MapView implementation in SwiftUI using ```UIViewRepresentable```
 
 ### Note: All image resources used from [FlatIcon](https://www.flaticon.com/) and [Unsplash](https://unsplash.com/)
