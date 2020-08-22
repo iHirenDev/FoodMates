@@ -18,8 +18,6 @@ A SwiftUI application for restaurant search based on user location and search fu
 
 # Demo
 
-![foodmates](foodmates.mov)
-
 ![screenshot1](IMG_5818.PNG)
 
 ![screenshot2](IMG_5819.PNG)
