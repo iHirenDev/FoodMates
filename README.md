@@ -22,4 +22,6 @@ A SwiftUI application for restaurant search based on user location and search fu
 
 ![screenshot2](IMG_5819.PNG)
 
+![foodmates](foodmates.gif)
+
 ### Note: All image resources used from [FlatIcon](https://www.flaticon.com/) and [Unsplash](https://unsplash.com/)
