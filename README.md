@@ -1,5 +1,5 @@
 # FoodMates
-A SwiftUI application for restaurant search based on user location and search functionality using Zomato API implementing MVVM design pattern and Combine framework.
+A SwiftUI application for restaurant search based on user location and search functionality using Zomato API implementing MVVM design pattern and Combine framework. Get your Zomato API key from [here](https://developers.zomato.com/).
 
 # Features
 ###### 1. Networking implementation using Combine framework.
@@ -18,9 +18,13 @@ A SwiftUI application for restaurant search based on user location and search fu
 
 # Demo
 
+### Screenshots
+
 ![screenshot1](IMG_5818.PNG)
 
 ![screenshot2](IMG_5819.PNG)
+
+### Video
 
 ![foodmates](foodmates.gif)
 
